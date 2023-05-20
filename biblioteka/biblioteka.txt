@@ -1,0 +1,12 @@
+Celem zadania będzie utworzenie prostej biblioteki, z podstawowymi operacjami na książkach. Tworzymy bazę Biblioteka, tabelę ksiazki z polami id, tytul, autor, rokWydania. 
+Należy utworzyć formularz logowania do biblioteki (po poprawnym zalogowaniu przenosi nas do panelu administracyjnego), należy użyć sesji.
+W panelu administracyjnym widzimy tabelę z książkami, możemy każdą edytować i usuwać (przyciski, linki), mamy też oczywiście możliwość dodania nowej książki.
+Z panelu administracyjnego powinniśmy też mieć możliwość wylogowania się.
+Staraj się umieszczać kod w odpowiednio niepodzielnej strukturze, tzn. nowy plik do nowej funkcjonalności, np. przykładowa struktura:
+delete.php
+edit.php
+connection.php
+index.php
+insert.php
+login.php
+logout.php
